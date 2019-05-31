@@ -115,12 +115,27 @@ body {
   justify-content: space-between;
 }
 
-.div-1, .div-2, .div-3 {
+.div-1, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  color: rgb(62, 33, 190);
+  line-height: 1.75em;
+  font-size: 1.5em;
+  background: rgba(32, 196, 108, 0.4);
+  height: 300px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div-2 {
+  color:#fff;
+  line-height: 1.75em;
+  font-size: 3em;
+  text-transform: capitalize;
+  background: url("/img/bkgd.jpg");
+  background-size: cover;
   height: 300px;
   width: 30%;
   display: flex;
